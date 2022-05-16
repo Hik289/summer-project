@@ -1,0 +1,158 @@
+0: 55172552799386617
+image_size:	1440x1080
+1: 131341205479598104
+image_size:	1440x1080
+2: 259167754097034840
+image_size:	1440x1080
+3: 304670202775145511
+image_size:	1440x1080
+4: 485988418763022265
+image_size:	1440x1080
+5: 611252569381167837
+image_size:	1440x1080
+6: 636930907210967173
+image_size:	1440x1080
+Loading image pixel data ...done in 0s
+
+Compute Missing Pairwise Matching, begin...
+********* WARNING ***********
+More than 569MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0000, 1440x1080, 	2536, 2.42sec
+SIFT: 0001, 1440x1080, 	2654, 0.34sec
+SIFT: 0002, 1440x1080, 	2824, 0.31sec
+SIFT: 0003, 1440x1080, 	2077, 0.27sec
+SIFT: 0004, 1440x1080, 	2295, 0.34sec
+SIFT: 0005, 1440x1080, 	2160, 0.29sec
+SIFT: 0006, 1440x1080, 	2278, 0.26sec
+
+###########-------timing------#########
+7 Feature Detection finished, 5 sec used
+#############################
+
+21 pairs to compute match
+NOTE: using 2 matching workers
+0000 and 0002: 152 matches, 0.09sec, #1
+0000 and 0002: [93/152], H[50], 0.01sec
+0000 and 0001: 90 matches, 0.29sec, #0
+0000 and 0001: [45/90], H[13], 0.04sec
+0001 and 0002: 60 matches, 0.16sec, #1
+0002 and 0005: 25 matches, 0.12sec, #0
+0001 and 0002: [23/60], H[8], 0.13sec
+0000 and 0003: 46 matches, 0.04sec, #1
+0002 and 0005: [10/25], H[0], 0.11sec
+0000 and 0003: [13/46], H[6], 0.13sec
+0003 and 0005: 23 matches, 0.07sec, #0
+0001 and 0003: 71 matches, 0.06sec, #1
+0004 and 0005: 91 matches, 0.09sec, #0
+0004 and 0005: [58/91], H[20], 0.01sec
+0001 and 0003: [36/71], H[8], 0.07sec
+0002 and 0003: 34 matches, 0.07sec, #1
+0000 and 0006: 38 matches, 0.10sec, #0
+0002 and 0003: [11/34], H[5], 0.14sec
+0000 and 0006: [11/38], H[6], 0.14sec
+0000 and 0004: 23 matches, 0.05sec, #1
+0001 and 0006: 41 matches, 0.12sec, #0
+0001 and 0004: 33 matches, 0.05sec, #1
+0001 and 0006: [12/41], H[6], 0.12sec
+0001 and 0004: [11/33], H[4], 0.13sec
+0002 and 0004: 28 matches, 0.09sec, #1
+0002 and 0006: 44 matches, 0.13sec, #0
+0002 and 0004: [11/28], H[0], 0.09sec
+0002 and 0006: [11/44], H[5], 0.14sec
+0003 and 0004: 38 matches, 0.05sec, #1
+0003 and 0004: [11/38], H[5], 0.11sec
+0003 and 0006: 81 matches, 0.13sec, #0
+0000 and 0005: 28 matches, 0.04sec, #1
+0003 and 0006: [43/81], H[18], 0.02sec
+0000 and 0005: [10/28], H[0], 0.08sec
+0004 and 0006: 82 matches, 0.11sec, #0
+0001 and 0005: 28 matches, 0.07sec, #1
+0004 and 0006: [54/82], H[11], 0.02sec
+0001 and 0005: [11/28], H[5], 0.11sec
+0005 and 0006: 35 matches, 0.11sec, #0
+0005 and 0006: [18/35], H[9], 0.02sec
+
+###########-------timing------#########
+21 Image Match finished, 2 sec used
+#############################
+
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 7.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+7 pairs have two-view models
+19 pairs have fundamental matrices
+Initialize with 485..22265 and 611..67837
+58 3D points initialized from two images
+PBA library version = 105
+PBA: 58 3D pts, 2 cams and 116 projs...
+PBA: 0.452 -> 0.241 (2 LMs in 0.16sec)
+Focal Length : [1728.000]->[1710.798]
+Focal Length : [1728.000]->[1748.861]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with 551..86617 and 131..98104
+45 3D points initialized from two images
+PBA: 45 3D pts, 2 cams and 90 projs...
+PBA: 0.251 -> 0.198 (1 LMs in 0.08sec)
+Focal Length : [1728.000]->[1732.960]
+Focal Length : [1728.000]->[1725.083]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with 304..45511 and 636..67173
+42 3D points initialized from two images
+PBA: 42 3D pts, 2 cams and 84 projs...
+PBA: 0.553 -> 0.297 (100 LMs in 0.60sec)
+Focal Length : [1728.000]->[1706.891]
+Focal Length : [1728.000]->[1649.143]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 1 sec used
+
+---------------------------------------------------
+2 cams, 43 pts (3+: 0)
+84 projections (3+: 0)
+---------------------------------------------------
+3 model(s) reconstructed from 7 images;
+6 modeled; 0 reused; 0 EXIF; 
+0MB(0) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 4 sec used
+0.9(0.9) seconds on Bundle Adjustment (+)
+0.8(0.8) seconds on Bundle Adjustment (*)
+#############################
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 4.000 seconds used
+
+
+Run dense reconstruction, begin...
+Save to 11.nvm ... done
+
+#############################
+Undistorting 2 images in model #2
+param_undistortion_thread_num = 0
+NOTE: using 8 threads...
+#00: 304..45511 -> 00000000.jpg, 0.392 sec
+#00: 636..67173 -> 00000001.jpg, 0.305 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs K:\22222\11.nvm.cmvs\02\ 50 8
+ERROR: the above CMVS command failed!
+FAQ: http://ccwu.me/vsfm/doc.html#errors
+----------------------------------------------------------------
+Run dense reconstruction, finished
+Totally 1.000 seconds used
+

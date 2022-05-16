@@ -1,0 +1,107 @@
+
+VisualSFM 3D reconstruction, begin...
+Searching images in the specified folder
+0: 127384009023341179
+image_size:	1280x960
+1: 189966138327214285
+image_size:	1280x960
+2: 207962798249275062
+image_size:	1280x960
+3: 287041918871503284
+image_size:	1280x960
+4: 295573022322365888
+image_size:	1280x960
+5: 499886303424990337
+image_size:	1280x960
+Loading image pixel data ...done in 0s
+Compute all missing matches
+********* WARNING ***********
+More than 450MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0000, 1280x960, 	10979, 1.25sec
+SIFT: 0001, 1280x960, 	8849, 0.25sec
+SIFT: 0002, 1280x960, 	10961, 0.28sec
+SIFT: 0003, 1280x960, 	9811, 0.25sec
+SIFT: 0004, 1280x960, 	9040, 0.26sec
+SIFT: 0005, 1280x960, 	10002, 0.25sec
+
+###########-------timing------#########
+6 Feature Detection finished, 3 sec used
+#############################
+
+15 pairs to compute match
+NOTE: using 2 matching workers
+0001 and 0002: 210 matches, 0.48sec, #1
+0001 and 0002: [170/210], H[162], 0.00sec
+0000 and 0003: 95 matches, 0.53sec, #1
+0000 and 0001: 50 matches, 1.05sec, #0
+0000 and 0003: [48/95], H[41], 0.04sec
+0000 and 0001: [12/50], H[5], 0.14sec
+0001 and 0003: 223 matches, 0.39sec, #1
+0001 and 0003: [191/223], H[165], 0.00sec
+0002 and 0003: 61 matches, 0.49sec, #1
+0002 and 0003: [25/61], H[15], 0.06sec
+0000 and 0002: 48 matches, 1.04sec, #0
+0000 and 0004: 81 matches, 0.43sec, #1
+0000 and 0004: [55/81], H[41], 0.00sec
+0000 and 0002: [16/48], H[4], 0.17sec
+0001 and 0004: 95 matches, 0.34sec, #1
+0001 and 0004: [68/95], H[36], 0.00sec
+0002 and 0004: 106 matches, 0.45sec, #1
+0002 and 0004: [73/106], H[20], 0.00sec
+0003 and 0004: 32 matches, 0.91sec, #0
+0003 and 0004: [11/32], H[4], 0.14sec
+0002 and 0005: 87 matches, 0.52sec, #1
+0002 and 0005: [50/87], H[30], 0.01sec
+0003 and 0005: 2418 matches, 0.47sec, #1
+0003 and 0005: [2379/2418], H[2086], 0.02sec
+0000 and 0005: 30 matches, 0.83sec, #0
+0000 and 0005: [13/30], H[4], 0.15sec
+0004 and 0005: 48 matches, 0.44sec, #1
+0004 and 0005: [13/48], H[5], 0.08sec
+0001 and 0005: 304 matches, 0.80sec, #0
+0001 and 0005: [278/304], H[267], 0.00sec
+
+###########-------timing------#########
+15 Image Match finished, 6 sec used
+#############################
+
+Save to K:\temp\MeshRecon\results\output.nvm ... done
+3 pairs have two-view models
+15 pairs have fundamental matrices
+Initialize with 127..41179 and 295..65888
+19 3D points initialized from two images
+PBA library version = 105
+PBA: 19 3D pts, 2 cams and 38 projs...
+PBA: 2.864 -> 0.197 (7 LMs in 0.18sec)
+Focal Length : [4637.440]->[4385.426]
+Focal Length : [4637.440]->[5003.219]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 0 sec used
+
+---------------------------------------------------
+2 cams, 20 pts (3+: 0)
+38 projections (3+: 0)
+---------------------------------------------------
+1 model(s) reconstructed from 6 images;
+2 modeled; 0 reused; 0 EXIF; 
+1MB(0) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 1 sec used
+0.2(0.2) seconds on Bundle Adjustment (+)
+0.2(0.2) seconds on Bundle Adjustment (*)
+#############################
+Save to K:\temp\MeshRecon\results\output.nvm ... done
+----------------------------------------------------------------
+VisualSFM 3D reconstruction, finished
+Totally 10.000 seconds used
+
+__LogFile: K:\temp\MeshRecon\vsfm\log\[15_07_24][16_23_17][965].log

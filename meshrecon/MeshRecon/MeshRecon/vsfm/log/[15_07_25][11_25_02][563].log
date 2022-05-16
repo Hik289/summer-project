@@ -1,0 +1,106 @@
+
+VisualSFM 3D reconstruction, begin...
+Searching images in the specified folder
+0: 131341205479598104
+image_size:	1440x1080
+#sift count:	2654
+
+1: 259167754097034840
+image_size:	1440x1080
+#sift count:	2825
+
+2: 304670202775145511
+image_size:	1440x1080
+#sift count:	2077
+
+3: 485988418763022265
+image_size:	1440x1080
+#sift count:	2295
+
+4: 55172552799386617
+image_size:	1440x1080
+#sift count:	2536
+
+5: 611252569381167837
+image_size:	1440x1080
+#sift count:	2160
+
+6: 636930907210967173
+image_size:	1440x1080
+#sift count:	2278
+
+Loading image pixel data ...done in 0s
+Compute all missing matches
+0 pairs to compute match
+Save to K:\temp\MeshRecon\results\output.nvm ... done
+7 pairs have two-view models
+19 pairs have fundamental matrices
+Initialize with 485..22265 and 611..67837
+65 3D points initialized from two images
+PBA library version = 105
+PBA: 65 3D pts, 2 cams and 130 projs...
+PBA: 1.687 -> 1.023 (70 LMs in 0.69sec)
+Focal Length : [5217.120]->[2315.026]
+Focal Length : [5217.120]->[2375.153]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with 304..45511 and 636..67173
+54 3D points initialized from two images
+PBA: 54 3D pts, 2 cams and 108 projs...
+PBA: 2.896 -> 1.611 (48 LMs in 0.52sec)
+Focal Length : [5217.120]->[18118.805]
+Focal Length : [5217.120]->[4767.018]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with 131..98104 and 551..86617
+53 3D points initialized from two images
+PBA: 53 3D pts, 2 cams and 106 projs...
+PBA: 5.324 -> 3.141 (24 LMs in 0.32sec)
+Focal Length : [5217.120]->[3712.226]
+Focal Length : [5217.120]->[5376.212]
+
+#############################
+#3: [259..34840] sees 21 (+97) 3D points
+17: too few projection inliers
+
+#############################
+#3: [259..34840] sees 21 (+97) 3D points
+14: too few projection inliers
+
+#############################
+#3: [259..34840] sees 21 (+97) 3D points
+15: too few projection inliers
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 1 sec used
+
+---------------------------------------------------
+2 cams, 66 pts (3+: 0)
+130 projections (3+: 0)
+---------------------------------------------------
+2 cams, 55 pts (3+: 0)
+108 projections (3+: 0)
+---------------------------------------------------
+2 cams, 54 pts (3+: 0)
+106 projections (3+: 0)
+---------------------------------------------------
+3 model(s) reconstructed from 7 images;
+6 modeled; 0 reused; 0 EXIF; 
+0MB(0) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 5 sec used
+1.5(1.5) seconds on Bundle Adjustment (+)
+1.5(1.5) seconds on Bundle Adjustment (*)
+#############################
+Save to K:\temp\MeshRecon\results\output.nvm ... done
+----------------------------------------------------------------
+VisualSFM 3D reconstruction, finished
+Totally 5.000 seconds used
+
+__LogFile: K:\temp\MeshRecon\vsfm\log\[15_07_25][11_25_02][563].log

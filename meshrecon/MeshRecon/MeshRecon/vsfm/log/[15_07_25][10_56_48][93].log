@@ -1,0 +1,102 @@
+0: 127384009023341179
+image_size:	1280x960
+#sift count:	10981
+
+1: 189966138327214285
+image_size:	1280x960
+#sift count:	8848
+
+2: 207962798249275062
+image_size:	1280x960
+#sift count:	10964
+
+3: 287041918871503284
+image_size:	1280x960
+#sift count:	9811
+
+4: 295573022322365888
+image_size:	1280x960
+#sift count:	9037
+
+5: 499886303424990337
+image_size:	1280x960
+#sift count:	10004
+
+Loading image pixel data ...done in 0s
+
+Compute Missing Pairwise Matching, begin...
+0 pairs to compute match
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 0.000 seconds used
+
+
+Compute Missing Pairwise Matching, begin...
+0 pairs to compute match
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 0.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+7 pairs have two-view models
+15 pairs have fundamental matrices
+Initialize with 207..75062 and 295..65888
+65 3D points initialized from two images
+PBA library version = 105
+PBA: 65 3D pts, 2 cams and 130 projs...
+PBA: 0.579 -> 0.312 (18 LMs in 0.41sec)
+Focal Length : [1536.000]->[1562.055]
+Focal Length : [1536.000]->[1503.139]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with 189..14285 and 287..03284
+16 3D points initialized from two images
+PBA: 16 3D pts, 2 cams and 32 projs...
+PBA: 0.842 -> 0.243 (9 LMs in 0.13sec)
+Focal Length : [1536.000]->[1566.678]
+Focal Length : [1536.000]->[1506.453]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 0 sec used
+
+---------------------------------------------------
+2 cams, 17 pts (3+: 0)
+32 projections (3+: 0)
+---------------------------------------------------
+2 model(s) reconstructed from 6 images;
+4 modeled; 0 reused; 0 EXIF; 
+1MB(0) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 3 sec used
+0.5(0.5) seconds on Bundle Adjustment (+)
+0.5(0.5) seconds on Bundle Adjustment (*)
+#############################
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 3.000 seconds used
+
+
+Run dense reconstruction, begin...
+Save to 11.nvm ... done
+
+#############################
+Undistorting 2 images in model #1
+param_undistortion_thread_num = 0
+NOTE: using 8 threads...
+#00: 189..14285 -> 00000000.jpg, 0.480 sec
+#00: 287..03284 -> 00000001.jpg, 0.378 sec
+----------------------------------------------------------------
+Running Yasutaka Furukawa's CMVS tool...
+cmvs K:\111333\11.nvm.cmvs\01\ 50 8
+ERROR: the above CMVS command failed!
+FAQ: http://ccwu.me/vsfm/doc.html#errors
+----------------------------------------------------------------
+Run dense reconstruction, finished
+Totally 1.000 seconds used
+

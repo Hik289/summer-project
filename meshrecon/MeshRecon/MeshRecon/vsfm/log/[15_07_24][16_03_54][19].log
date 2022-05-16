@@ -1,0 +1,50 @@
+0: 68017286117430709
+image_size:	1280x960
+1: 231324584066623501
+image_size:	1280x960
+2: 785808361336992956
+image_size:	1280x960
+3: 809837938793484833
+image_size:	1280x960
+4: 835686161018766364
+image_size:	1280x960
+5: 853465454389220839
+image_size:	1280x960
+Loading image pixel data ...done in 0s
+
+Compute Missing Pairwise Matching, begin...
+********* WARNING ***********
+More than 450MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+ERROR: siftgpu failed the detection test!!
+SIFT: 0000, 1280x960, 	ERROR1
+ERROR: unable to locate sift binary.
+FAQ at http://ccwu.me/vsfm/doc.html#errors
+
+###########-------timing------#########
+1 Feature Detection finished, 1 sec used
+#############################
+
+15 pairs to compute match
+NOTE: using 2 matching workers
+
+###########-------timing------#########
+15 Image Match finished, 0 sec used
+#############################
+
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 1.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+0 pairs have two-view models
+0 pairs have fundamental matrices
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 0.000 seconds used
+
+Save to 11.nvm ... done

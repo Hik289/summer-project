@@ -1,0 +1,169 @@
+0: 127384009023341179
+image_size:	1280x960
+1: 189966138327214285
+image_size:	1280x960
+2: 207962798249275062
+image_size:	1280x960
+3: 287041918871503284
+image_size:	1280x960
+4: 295573022322365888
+image_size:	1280x960
+5: 499886303424990337
+image_size:	1280x960
+Loading image pixel data ...done in 0s
+
+Compute Missing Pairwise Matching, begin...
+********* WARNING ***********
+More than 450MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0000, 1280x960, 	10981, 1.77sec
+SIFT: 0001, 1280x960, 	8848, 0.40sec
+SIFT: 0002, 1280x960, 	10964, 0.39sec
+SIFT: 0003, 1280x960, 	9811, 0.34sec
+SIFT: 0004, 1280x960, 	9037, 0.32sec
+SIFT: 0005, 1280x960, 	10004, 0.32sec
+
+###########-------timing------#########
+6 Feature Detection finished, 4 sec used
+#############################
+
+15 pairs to compute match
+NOTE: using 2 matching workers
+0000 and 0002: 61 matches, 0.52sec, #1
+0000 and 0002: [16/61], H[7], 0.07sec
+0001 and 0002: 209 matches, 0.39sec, #1
+0001 and 0002: [167/209], H[163], 0.00sec
+0000 and 0001: 48 matches, 1.49sec, #0
+0000 and 0001: [11/48], H[5], 0.15sec
+0000 and 0003: 94 matches, 0.47sec, #1
+0000 and 0003: [47/94], H[42], 0.03sec
+0001 and 0003: 224 matches, 0.38sec, #1
+0001 and 0003: [167/224], H[118], 0.00sec
+0003 and 0004: 32 matches, 1.00sec, #0
+0003 and 0004: [9/32], H[4], 0.13sec
+0002 and 0003: 61 matches, 0.47sec, #1
+0002 and 0003: [22/61], H[18], 0.04sec
+0000 and 0005: 31 matches, 1.14sec, #0
+0000 and 0004: 81 matches, 0.48sec, #1
+0000 and 0004: [53/81], H[43], 0.00sec
+0000 and 0005: [10/31], H[5], 0.12sec
+0001 and 0004: 95 matches, 0.39sec, #1
+0001 and 0004: [60/95], H[54], 0.00sec
+0001 and 0005: 304 matches, 0.98sec, #0
+0001 and 0005: [277/304], H[253], 0.01sec
+0002 and 0004: 106 matches, 0.44sec, #1
+0002 and 0004: [65/106], H[37], 0.01sec
+0002 and 0005: 83 matches, 1.05sec, #0
+0002 and 0005: [46/83], H[40], 0.03sec
+0004 and 0005: 49 matches, 0.44sec, #1
+0004 and 0005: [12/49], H[5], 0.07sec
+0003 and 0005: 2176 matches, 1.00sec, #0
+0003 and 0005: [2121/2176], H[2027], 0.04sec
+
+###########-------timing------#########
+15 Image Match finished, 7 sec used
+#############################
+
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 11.000 seconds used
+
+
+Run full 3D reconstruction, begin...
+7 pairs have two-view models
+15 pairs have fundamental matrices
+Initialize with 207..75062 and 295..65888
+65 3D points initialized from two images
+PBA library version = 105
+PBA: 65 3D pts, 2 cams and 130 projs...
+PBA: 0.579 -> 0.312 (15 LMs in 0.17sec)
+Focal Length : [1536.000]->[1562.036]
+Focal Length : [1536.000]->[1503.133]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with 189..14285 and 287..03284
+16 3D points initialized from two images
+PBA: 16 3D pts, 2 cams and 32 projs...
+PBA: 0.842 -> 0.243 (9 LMs in 0.12sec)
+Focal Length : [1536.000]->[1566.880]
+Focal Length : [1536.000]->[1506.274]
+END: No more images to add [0 projs]
+
+#############################
+Failed to find two images for initialization
+Resuming SfM finished, 0 sec used
+
+---------------------------------------------------
+2 cams, 17 pts (3+: 0)
+32 projections (3+: 0)
+---------------------------------------------------
+2 model(s) reconstructed from 6 images;
+4 modeled; 0 reused; 0 EXIF; 
+1MB(0) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 3 sec used
+0.3(0.3) seconds on Bundle Adjustment (+)
+0.3(0.3) seconds on Bundle Adjustment (*)
+#############################
+----------------------------------------------------------------
+Run full 3D reconstruction, finished
+Totally 3.000 seconds used
+
+
+Compute Missing Pairwise Matching, begin...
+0 pairs to compute match
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 0.000 seconds used
+
+
+Compute Missing Pairwise Matching, begin...
+0 pairs to compute match
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 0.000 seconds used
+
+
+Compute Missing Pairwise Matching, begin...
+0 pairs to compute match
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 0.000 seconds used
+
+
+Compute Missing Pairwise Matching, begin...
+0 pairs to compute match
+----------------------------------------------------------------
+Compute Missing Pairwise Matching, finished
+Totally 0.000 seconds used
+
+
+Load existing NView match, begin...
+6 images deleted
+Load 11.nvm...
+
+68017286117430709
+image_size:	1280x960
+231324584066623501
+image_size:	1280x960
+785808361336992956
+image_size:	1280x960
+809837938793484833
+image_size:	1280x960
+835686161018766364
+image_size:	1280x960
+853465454389220839
+image_size:	1280x960
+# images loaded:	6
+Loading image pixel data ...done in 0s
+Loading matching records ...done in 0s
+----------------------------------------------------------------
+Load existing NView match, finished
+Totally 0.000 seconds used
+

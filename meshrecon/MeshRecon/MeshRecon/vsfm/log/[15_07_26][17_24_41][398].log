@@ -1,0 +1,255 @@
+
+VisualSFM 3D reconstruction, begin...
+Searching images in the specified folder
+0: 148917725897061518
+image_size:	960x1280
+1: 275353029203390828
+image_size:	1280x960
+2: 314093978043906775
+image_size:	1280x960
+3: 344182047411696460
+image_size:	1280x960
+4: 440429938774351856
+image_size:	1280x960
+5: 455157736627511558
+image_size:	1280x960
+6: 555873138432299129
+image_size:	1280x960
+7: 593226362667248653
+image_size:	960x1280
+8: 629778458810639525
+image_size:	1280x960
+9: 641094745607745497
+image_size:	960x1280
+10: 667895703636159877
+image_size:	960x1280
+11: 785713684332363221
+image_size:	960x1280
+Loading image pixel data ...done in 0s
+Compute all missing matches
+********* WARNING ***********
+More than 600MB of graphic memory may be allocated
+under the default settings. If the program halts here,
+adjust parameters to save memory and rerun the task: 
+    [Tools->Enable GPU->Set Maximum DIM]
+Note some octaves may be automatically skipped
+SIFT: 0000, 960x1280, 	10602, 1.96sec
+SIFT: 0001, 1280x960, 	6867, 0.43sec
+SIFT: 0002, 1280x960, 	5984, 0.20sec
+SIFT: 0003, 1280x960, 	2331, 0.16sec
+SIFT: 0004, 1280x960, 	5127, 0.19sec
+SIFT: 0005, 1280x960, 	5984, 0.20sec
+SIFT: 0006, 1280x960, 	6867, 0.22sec
+SIFT: 0007, 960x1280, 	2228, 0.16sec
+SIFT: 0008, 1280x960, 	6124, 0.21sec
+SIFT: 0009, 960x1280, 	9059, 0.24sec
+SIFT: 0010, 960x1280, 	8273, 0.22sec
+SIFT: 0011, 960x1280, 	5073, 0.19sec
+
+###########-------timing------#########
+12 Feature Detection finished, 5 sec used
+#############################
+
+66 pairs to compute match
+NOTE: using 2 matching workers
+0001 and 0002: 75 matches, 0.18sec, #1
+0001 and 0002: [19/75], H[7], 0.06sec
+0000 and 0003: 29 matches, 0.10sec, #1
+0000 and 0003: [10/29], H[0], 0.04sec
+0001 and 0003: 28 matches, 0.08sec, #1
+0001 and 0003: [9/28], H[0], 0.05sec
+0002 and 0003: 21 matches, 0.05sec, #1
+0000 and 0001: 43 matches, 0.80sec, #0
+0000 and 0004: 30 matches, 0.21sec, #1
+0000 and 0004: [9/30], H[0], 0.05sec
+0000 and 0001: [10/43], H[5], 0.07sec
+0001 and 0004: 31 matches, 0.14sec, #1
+0001 and 0004: [9/31], H[0], 0.04sec
+0002 and 0004: 32 matches, 0.13sec, #1
+0002 and 0004: [10/32], H[5], 0.06sec
+0003 and 0004: 44 matches, 0.05sec, #1
+0003 and 0004: [11/44], H[0], 0.05sec
+0000 and 0002: 48 matches, 0.62sec, #0
+0000 and 0005: 48 matches, 0.23sec, #1
+0000 and 0002: [11/48], H[5], 0.07sec
+0000 and 0005: [11/48], H[5], 0.07sec
+0003 and 0005: 21 matches, 0.15sec, #0
+0001 and 0005: 75 matches, 0.16sec, #1
+0001 and 0005: [17/75], H[5], 0.07sec
+0002 and 0005: 5972 matches, 0.14sec, #1
+0002 and 0005: [5972/5972], H[5972], 0.04sec
+0002 and 0007: 15 matches, 0.06sec, #1
+0004 and 0005: 32 matches, 0.35sec, #0
+0003 and 0007: 16 matches, 0.03sec, #1
+0004 and 0007: 18 matches, 0.06sec, #1
+0004 and 0005: [10/32], H[5], 0.09sec
+0005 and 0007: 15 matches, 0.06sec, #1
+0006 and 0007: 24 matches, 0.08sec, #1
+0000 and 0008: 36 matches, 0.27sec, #1
+0000 and 0008: [10/36], H[0], 0.05sec
+0000 and 0006: 43 matches, 0.58sec, #0
+0001 and 0008: 31 matches, 0.17sec, #1
+0001 and 0008: [10/31], H[0], 0.05sec
+0000 and 0006: [10/43], H[5], 0.07sec
+0002 and 0008: 32 matches, 0.14sec, #1
+0002 and 0008: [11/32], H[6], 0.06sec
+0003 and 0008: 34 matches, 0.07sec, #1
+0003 and 0008: [10/34], H[0], 0.04sec
+0004 and 0008: 154 matches, 0.12sec, #1
+0004 and 0008: [93/154], H[13], 0.02sec
+0001 and 0006: 6861 matches, 0.50sec, #0
+0005 and 0008: 32 matches, 0.14sec, #1
+0001 and 0006: [6861/6861], H[6861], 0.04sec
+0005 and 0008: [11/32], H[6], 0.07sec
+0006 and 0008: 31 matches, 0.14sec, #1
+0006 and 0008: [9/31], H[0], 0.05sec
+0007 and 0008: 27 matches, 0.05sec, #1
+0007 and 0008: [9/27], H[0], 0.04sec
+0002 and 0006: 75 matches, 0.65sec, #0
+0000 and 0009: 75 matches, 0.36sec, #1
+0002 and 0006: [18/75], H[8], 0.08sec
+0000 and 0009: [12/75], H[5], 0.07sec
+0003 and 0006: 28 matches, 0.17sec, #0
+0001 and 0009: 30 matches, 0.24sec, #1
+0003 and 0006: [9/28], H[0], 0.07sec
+0001 and 0009: [10/30], H[0], 0.05sec
+0002 and 0009: 47 matches, 0.23sec, #1
+0002 and 0009: [13/47], H[0], 0.05sec
+0003 and 0009: 17 matches, 0.08sec, #1
+0004 and 0006: 31 matches, 0.55sec, #0
+0004 and 0009: 47 matches, 0.16sec, #1
+0004 and 0006: [10/31], H[0], 0.05sec
+0004 and 0009: [11/47], H[5], 0.06sec
+0005 and 0009: 47 matches, 0.21sec, #1
+0005 and 0009: [11/47], H[0], 0.06sec
+0005 and 0006: 75 matches, 0.53sec, #0
+0006 and 0009: 30 matches, 0.25sec, #1
+0006 and 0009: [10/30], H[0], 0.05sec
+0005 and 0006: [20/75], H[6], 0.07sec
+0007 and 0009: 20 matches, 0.07sec, #1
+0000 and 0007: 19 matches, 0.14sec, #0
+0008 and 0009: 44 matches, 0.24sec, #1
+0001 and 0007: 24 matches, 0.12sec, #0
+0008 and 0009: [11/44], H[0], 0.05sec
+0000 and 0010: 76 matches, 0.35sec, #1
+0000 and 0010: [12/76], H[0], 0.07sec
+0008 and 0010: 70 matches, 0.65sec, #0
+0001 and 0010: 36 matches, 0.20sec, #1
+0001 and 0010: [9/36], H[0], 0.05sec
+0008 and 0010: [19/70], H[10], 0.07sec
+0002 and 0010: 40 matches, 0.18sec, #1
+0002 and 0010: [10/40], H[0], 0.04sec
+0003 and 0010: 25 matches, 0.09sec, #1
+0003 and 0010: [10/25], H[4], 0.07sec
+0004 and 0010: 46 matches, 0.18sec, #1
+0004 and 0010: [10/46], H[4], 0.08sec
+0005 and 0010: 40 matches, 0.20sec, #1
+0005 and 0010: [10/40], H[0], 0.06sec
+0009 and 0010: 194 matches, 0.93sec, #0
+0009 and 0010: [110/194], H[47], 0.01sec
+0006 and 0010: 36 matches, 0.22sec, #1
+0006 and 0010: [10/36], H[0], 0.05sec
+0007 and 0010: 15 matches, 0.07sec, #1
+0005 and 0011: 97 matches, 0.13sec, #1
+0005 and 0011: [34/97], H[11], 0.07sec
+0006 and 0011: 41 matches, 0.12sec, #1
+0000 and 0011: 66 matches, 0.46sec, #0
+0006 and 0011: [11/41], H[5], 0.06sec
+0000 and 0011: [12/66], H[5], 0.07sec
+0007 and 0011: 21 matches, 0.05sec, #1
+0008 and 0011: 38 matches, 0.13sec, #1
+0008 and 0011: [10/38], H[0], 0.05sec
+0001 and 0011: 41 matches, 0.38sec, #0
+0009 and 0011: 75 matches, 0.21sec, #1
+0001 and 0011: [11/41], H[4], 0.06sec
+0009 and 0011: [12/75], H[5], 0.07sec
+0010 and 0011: 67 matches, 0.17sec, #1
+0010 and 0011: [14/67], H[5], 0.06sec
+0002 and 0011: 97 matches, 0.33sec, #0
+0002 and 0011: [36/97], H[17], 0.07sec
+0003 and 0011: 21 matches, 0.07sec, #0
+0004 and 0011: 42 matches, 0.27sec, #0
+0004 and 0011: [11/42], H[5], 0.06sec
+
+###########-------timing------#########
+66 Image Match finished, 9 sec used
+#############################
+
+Save to K:\temp\MeshRecon\results\output.nvm ... done
+8 pairs have two-view models
+52 pairs have fundamental matrices
+Initialize with 440..51856 and 629..39525
+71 3D points initialized from two images
+PBA library version = 105
+PBA: 71 3D pts, 2 cams and 142 projs...
+PBA: 0.393 -> 0.229 (4 LMs in 0.24sec)
+Focal Length : [1536.000]->[1488.811]
+Focal Length : [1536.000]->[1609.614]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with 455..11558 and 785..63221
+34 3D points initialized from two images
+PBA: 34 3D pts, 2 cams and 68 projs...
+PBA: 0.262 -> 0.210 (1 LMs in 0.18sec)
+Focal Length : [1536.000]->[1546.814]
+Focal Length : [1536.000]->[1543.851]
+
+#############################
+#3: [314..06775] sees 65 (+5938) 3D points
+Estimated Focal Length [1435][1.12N]
+# 34 projs (0 pts and 0 merges)
+PBA: 34 3D pts, 3 cams and 102 projs...
+PBA: 1.429 -> 0.237 (1 LMs in 0.01sec)
+
+**************************************
+#3/3:  34 projs and 0 pts added.
+PBA: 34 3D pts, 3 cams and 102 projs...
+PBA: 0.237 -> 0.209 (1 LMs in 0.01sec)
+PBA: 34 3D pts, 3 cams and 102 projs...
+PBA: 0.209 -> 0.199 (1 LMs in 0.01sec)
+Focal Length : [1435.140]->[1512.088]
+Radial Distortion : [0.083 -> 9]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with 641..45497 and 667..59877
+110 3D points initialized from two images
+PBA: 110 3D pts, 2 cams and 220 projs...
+PBA: 0.557 -> 0.160 (1 LMs in 0.14sec)
+Focal Length : [1536.000]->[1537.251]
+Focal Length : [1536.000]->[1549.559]
+END: No more images to add [0 projs]
+
+#############################
+Initialize with 275..90828 and 555..99129
+Failed to initialize with the chosen pair
+Failed to find two images for initialization
+Resuming SfM finished, 1 sec used
+
+---------------------------------------------------
+3 cams, 35 pts (3+: 34)
+102 projections (3+: 102)
+---------------------------------------------------
+2 cams, 111 pts (3+: 0)
+220 projections (3+: 0)
+---------------------------------------------------
+2 cams, 72 pts (3+: 0)
+142 projections (3+: 0)
+---------------------------------------------------
+3 model(s) reconstructed from 12 images;
+7 modeled; 0 reused; 0 EXIF; 
+1MB(1) used to store feature location.
+---------------------------------------------------
+
+########-------timing------#########
+Structure-From-Motion finished, 3 sec used
+0.6(0.6) seconds on Bundle Adjustment (+)
+0.6(0.6) seconds on Bundle Adjustment (*)
+#############################
+Save to K:\temp\MeshRecon\results\output.nvm ... done
+----------------------------------------------------------------
+VisualSFM 3D reconstruction, finished
+Totally 17.000 seconds used
+
+__LogFile: K:\temp\MeshRecon\vsfm\log\[15_07_26][17_24_41][398].log

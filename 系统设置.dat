@@ -1,0 +1,37 @@
+[Accelerator]
+Count=23
+0 0 0 H selectDollyTool:
+0 0 0 I selectImageIglooTool:
+0 0 0 O selectOrbitTool:
+0 0 0 Z selectZoomTool:
+0 0 1 Z viewZoomExtents:
+0 0 0 A selectArcTool:
+0 0 0 C selectCircleTool:
+0 0 0 E selectEraseTool:
+0 0 0 B selectPaintTool:
+0 0 0 P selectPushPullTool:
+0 0 0 R selectRectangleTool:
+0 0 0 Space selectSelectionTool:
+0 0 0 L selectLineTool:
+0 0 0 K 0 0 0 M selectMoveTool:
+0 0 0 G 0 0 0 T selectMeasureTool:
+0 0 0 F selectOffsetTool:
+0 0 0 Q selectRotateTool:
+0 0 0 S selectScaleTool:
+0 0 0 V 0 1 0 V 0 1 0 G
+[File Locations]
+Models=C:\Users\3DPrint\Documents\
+Classifications=C:\Users\3DPrint\AppData\Roaming\SketchUp\SketchUp 2015\SketchUp\Classifications\
+Components=C:\Users\3DPrint\Documents\
+Materials=C:\Users\3DPrint\Documents\
+Styles=C:\Users\3DPrint\Documents\
+Textures=C:\Users\3DPrint\Documents\
+Images=C:\Users\3DPrint\Documents\
+ImportExport=C:\Users\3DPrint\Documents\
+ComponentBrowser=C:\Program Files\SketchUp\SketchUp 2015\Components\
+ComponentBrowser1=C:\Program Files\SketchUp\SketchUp 2015\Components\
+ComponentBrowser2=C:\Program Files\SketchUp\SketchUp 2015\Components\
+MaterialsBrowser=C:\Program Files\SketchUp\SketchUp 2015\Materials\Stone\
+MaterialsBrowser2=C:\Program Files\SketchUp\SketchUp 2015\Materials\
+StylesBrowser=C:\Program Files\SketchUp\SketchUp 2015\Styles\
+StylesBrowser2=C:\Program Files\SketchUp\SketchUp 2015\Styles\
