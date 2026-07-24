@@ -12,49 +12,74 @@
   <img src="assets/readme-figure.png" alt="Summer Project: 3D Reconstruction overview" width="100%">
 </p>
 
-The overview figure follows the reconstruction path from image capture and calibration through feature matching, depth estimation, point-cloud reconstruction, mesh generation, and evaluation.
+**Figure 1.** The overview figure follows the reconstruction path from image capture and calibration through feature matching, depth estimation, point-cloud reconstruction, mesh generation, and evaluation.
 
-## Overview
+## Scope
 
-Summer Project organizes assets for a 3D reconstruction workflow, including VisualSFM, CMVS-PMVS, mesh reconstruction, database artifacts, and project documentation. It is a practical workspace for moving from captured images to point clouds and reconstructed meshes.
+This repository is organized as a conference-style research artifact for image-to-point-cloud and mesh reconstruction workflow. Summer Project organizes assets for a 3D reconstruction workflow, including VisualSFM, CMVS-PMVS, mesh reconstruction, database artifacts, and project documentation. It is a practical workspace for moving from captured images to point clouds and reconstructed meshes.
 
-## What Is Included
+The README is structured for fast inspection by reviewers and future collaborators: it states the artifact scope, the main entry points, the reproduction path, and the outputs that should be checked after a run.
 
-- `visualSFM/`: VisualSFM-related reconstruction assets.
-- `CMVS-PMVS/`: dense reconstruction tools and project files.
-- `meshrecon/`: mesh reconstruction components.
-- `3D construction/`: 3D construction workspace and supporting files.
-- `说明文档-分布式移动服务器网络.docx`: project documentation.
+## Artifact Contents
 
-## Quick Start
+| Component | Role |
+| --- | --- |
+| `visualSFM/` | VisualSFM-related reconstruction assets. |
+| `CMVS-PMVS/` | dense reconstruction tools and project files. |
+| `meshrecon/` | mesh reconstruction components. |
+| `3D construction/` | 3D construction workspace and supporting files. |
+| `说明文档-分布式移动服务器网络.docx` | project documentation. |
+
+## Reproduction Guide
 
 1. `git clone git@github.com:Hik289/summer-project.git`
 2. Open the reconstruction tool folder that matches the desired stage: `visualSFM/`, `CMVS-PMVS/`, or `meshrecon/`.
 3. Use the project document as the guide for local system settings and data layout.
 
-## Suggested Workflow
+For a full rerun, record the data window, random seed, software versions, machine type, and command used for each experiment. Keep raw datasets outside Git unless they are small public fixtures.
 
-1. Start with the smallest runnable script or notebook listed above.
-2. Keep raw data paths and credentials outside the repository.
-3. Save generated figures, tables, and reports under the existing result folders.
-4. When an experiment becomes stable, record the exact data window, parameters, and command used to reproduce it.
+## Experimental Workflow
 
-## Repository Map
+| Stage | What to Check |
+| --- | --- |
+| Setup | Confirm local data paths, environment packages, and any MATLAB or notebook paths before running experiments. |
+| Run | Execute the smallest script or notebook first, then scale to the full experiment once outputs match expectations. |
+| Inspect | Compare generated figures, logs, tables, and saved result folders against the intended analysis. |
+| Extend | Add new experiments as separate scripts or notebooks with explicit names instead of overwriting existing artifacts. |
 
-- `assets/readme-figure.png`: README overview figure.
-- Project scripts and notebooks: core research entry points.
-- Result or report folders: generated artifacts used for analysis and review.
+## Expected Outputs
+
+- Recreated figures, tables, notebooks, reports, or saved result files from the listed entry points.
+- A clear mapping from each experiment command to its generated output location.
+- Updated notes when a script depends on local data, private paths, or external software.
 
 ## Paper or Reference
 
 No external paper link is currently attached to this project. For now, the code, notebooks, and notes in this repository are the primary reference artifact.
 
+## Citation
+
+If this repository supports academic work, cite the linked paper when available. Otherwise cite the repository version used in your experiment.
+
+```bibtex
+@misc{summer_project_artifact_2026,
+  title = {{Summer Project: 3D Reconstruction}},
+  author = {Hik289},
+  year = {2026},
+  howpublished = {\url{https://github.com/Hik289/summer-project}},
+  note = {Research artifact}
+}
+```
+
 ## License
 
 No explicit license file is included yet. Add one before public reuse, redistribution, or package release.
 
-## Maintenance Notes
+## Reviewer Notes
 
-- Add a pinned environment file if this project is prepared for external installation.
-- Keep large datasets outside Git and document where each script expects them locally.
-- Prefer small, named experiment outputs over overwriting shared result files.
+| Item | Status |
+| --- | --- |
+| Code | Included in this repository. |
+| Data | Expected to be configured locally unless a small fixture is committed. |
+| Environment | Base dependencies are listed in the reproduction guide; pin a lockfile for archival release. |
+| Results | Store generated artifacts under the existing result, report, log, or output folders. |
